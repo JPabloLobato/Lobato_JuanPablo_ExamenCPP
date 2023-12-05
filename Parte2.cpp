@@ -31,11 +31,19 @@ int main () {
         env.insert("symbol1", 1);
         env.insert("symbol2", 2);
         env.insert("symbol1", 3);
+    } catch (const std::runtime_error& e) {
+        std::cout << "Error: " << e.what() << std::endl;
+    }
+    try {
         int value = env.lookup("symbol1");
         std::cout << "Valor de symbol1: " << value << std::endl;
-        value = env.lookup("symbol3");
+    } catch (const std::runtime_error &e ) {
+        std::cout << "Error: " << e.what() << std::endl;
+    }
+    try {
+        int value = env.lookup("symbol3");
         std::cout << "Valor de symbol3: " << value << std::endl;
-    } catch (const std::runtime_error& e) {
+    } catch (const std::runtime_error &e ) {
         std::cout << "Error: " << e.what() << std::endl;
     }
     return 0;

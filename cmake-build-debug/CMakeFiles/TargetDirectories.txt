@@ -1,0 +1,3 @@
+C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_ExamenCPP/cmake-build-debug/CMakeFiles/Lobato_JuanPablo_ExamenCPP.dir
+C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_ExamenCPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tinitotin/OneDrive/Documentos/GitHub/Lobato_JuanPablo_ExamenCPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
