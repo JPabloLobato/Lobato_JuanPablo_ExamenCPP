@@ -7,6 +7,10 @@ private:
     std::map<std::string, int> symbolTable;
 public:
     void insert(const std::string& symbol, int value) {
+        auto it = symbolTable.find(symbol);
+        if (it != symbolTable.end() && it->second != value)
+            throw std::runtime_error("Symbol already exists");
+    }
         symbolTable[symbol] = value;
     }
     int lookup(const std::string& symbol) const {
@@ -23,9 +27,10 @@ public:
 };
 int main () {
     Enviroment env;
-    env.insert("symbol1", 1);
-    env.insert("symbol2", 2);
     try {
+        env.insert("symbol1", 1);
+        env.insert("symbol2", 2);
+        env.insert("symbol1", 3);
         int value = env.lookup("symbol1");
         std::cout << "Valor de symbol1: " << value << std::endl;
         value = env.lookup("symbol3");
