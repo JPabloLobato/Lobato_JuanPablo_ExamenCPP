@@ -16,9 +16,17 @@ public:
         }
         symbolTable[symbol] = value;
     }
+    void remove(const std::string& symbol) {
+        if (!symbolTable.erase(symbol)) {
+            throw std::runtime_error("Symbol no existe");
+        }
+    }
+    bool exists (const std::string& symbol) const {
+        return symbolTable.find(symbol) != symbolTable.end();
+    }
     Symbol lookup(const std::string& symbol) const {
         auto it = symbolTable.find(symbol);
-        if (it == symbolTable.end()) {
+        if (it != symbolTable.end()) {
             return it->second;
         } else {
             throw std::runtime_error("Symbol no existe");
@@ -34,6 +42,9 @@ int main () {
         env.insert("symbol1", 1);
         env.insert("symbol2", 2.0f);
         env.insert("symbol3", "hola");
+        std::cout << "Symbol1 existe: " << (env.exists("symbol1") ? "Sí" : "No") << std::endl;
+        env.remove("symbol1");
+        std::cout << "Symbol1 existe: " << (env.exists("symbol1") ? "Sí" : "No") << std::endl;
     } catch (const std::runtime_error& e) {
         std::cout << "Error: " << e.what() << std::endl;
     }
