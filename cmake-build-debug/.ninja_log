@@ -1,14 +1,9 @@
 # ninja log v5
-1	548	7234729623301528	CMakeFiles/Lobato_JuanPablo_ExamenCPP.dir/Parte2.cpp.obj	f18e40d937594263
-6	692	7234735089490316	CMakeFiles/Lobato_JuanPablo_ExamenCPP.dir/Parte2.cpp.obj	f18e40d937594263
-695	852	7234735091047925	Lobato_JuanPablo_ExamenCPP.exe	1d71f6fe94e310ea
-4	732	7234737161485513	CMakeFiles/Lobato_JuanPablo_ExamenCPP.dir/Parte2.cpp.obj	f18e40d937594263
-733	889	7234737163012860	Lobato_JuanPablo_ExamenCPP.exe	1d71f6fe94e310ea
-5	691	7234738468055340	CMakeFiles/Lobato_JuanPablo_ExamenCPP.dir/Parte2.cpp.obj	f18e40d937594263
-692	866	7234738469780911	Lobato_JuanPablo_ExamenCPP.exe	1d71f6fe94e310ea
-5	696	7234742623821022	CMakeFiles/Lobato_JuanPablo_ExamenCPP.dir/Parte2.cpp.obj	f18e40d937594263
-698	865	7234742625468161	Lobato_JuanPablo_ExamenCPP.exe	1d71f6fe94e310ea
-5	715	7234743030158968	CMakeFiles/Lobato_JuanPablo_ExamenCPP.dir/Parte2.cpp.obj	f18e40d937594263
-716	877	7234743031746664	Lobato_JuanPablo_ExamenCPP.exe	1d71f6fe94e310ea
 5	691	7234747987297496	CMakeFiles/Lobato_JuanPablo_ExamenCPP.dir/Parte2.cpp.obj	f18e40d937594263
+10	490	7234756758856406	CMakeFiles/Lobato_JuanPablo_ExamenCPP.dir/c++.cpp.obj	85b284c1401ee45
 693	860	7234747988955546	Lobato_JuanPablo_ExamenCPP.exe	1d71f6fe94e310ea
+1	219	7234762026597447	build.ninja	5248bbac19318e4e
+5	1486	7234767551761763	CMakeFiles/Lobato_JuanPablo_ExamenCPP.dir/Parte2.cpp.obj	d6a7a7e5075ef99f
+1490	1760	7234767554509934	Lobato_JuanPablo_ExamenCPP.exe	1d71f6fe94e310ea
+5	1336	7234771155584391	CMakeFiles/Lobato_JuanPablo_ExamenCPP.dir/Parte2.cpp.obj	d6a7a7e5075ef99f
+1338	1625	7234771158454627	Lobato_JuanPablo_ExamenCPP.exe	1d71f6fe94e310ea
