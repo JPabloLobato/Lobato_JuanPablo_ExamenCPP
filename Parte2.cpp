@@ -8,7 +8,7 @@ private:
 public:
     void insert(const std::string& symbol, int value) {
         auto it = symbolTable.find(symbol);
-        if (it != symbolTable.end() && it->second != value)
+        if (it != symbolTable.end() && it->second != value) {
             throw std::runtime_error("Symbol already exists");
     }
         symbolTable[symbol] = value;
